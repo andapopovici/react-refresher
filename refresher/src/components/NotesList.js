@@ -49,10 +49,8 @@ class NotesList extends Component {
         return (
             <div>
                 <h1>My notes</h1>
-                {this.props.notes.map((note, index) 
-                    => <li key={index} className="list-group-item">{note.title}</li>
-                )}
-                
+                {this.props.notes.map((note, index) => <li key={index} className="list-group-item">{note.title}</li>)}
+
                 <h2>Add note</h2>
                 <input type="text"
                     onChange={this.onTitleChange}
