@@ -26,3 +26,20 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.app {
+  width: 100%;
+}
+
+.notes-list {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  padding-right: 20px;
+}
+
+.add-note-form {
+  display: inline-block;
+  width: 60%;
+}
+
